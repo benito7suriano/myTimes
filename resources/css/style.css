@@ -1,16 +1,14 @@
 /* Layout */
 
-/*
-div {
+/*div {
   border: 1px solid black;
-}
-*/
+}*/
 
 /* Header Section */
 
 header {
   display: flex;
-  width: 1200px;  
+  width: 1200px;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0;
@@ -84,6 +82,8 @@ header nav {
   font-size: 40px;
   color: white;
   height: 300px;
+  display: flex;
+  align-items: center;
 }
 
 #earth-story {
@@ -124,6 +124,8 @@ header nav {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .subsection {
@@ -155,4 +157,37 @@ header nav {
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
+}
+
+/*Footer Section */
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  padding: 100px;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 200px;
+}
+
+footer .title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 10px;
+  color: white;
+}
+
+footer .f-links {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer a {
+  color: black;
 }
