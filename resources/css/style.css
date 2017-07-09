@@ -163,8 +163,9 @@ header nav {
 
 footer {
   background-color: MediumAquamarine;
-  padding: 100px;
   width: 1200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   font-family: Verdana;
   font-size: 12px;
   display: flex;
