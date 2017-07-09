@@ -1,9 +1,21 @@
+/* Layout */
+
+div {
+  border: 1px solid black;
+}
+
+
+/* Header Section */
+
 header {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0;
   border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 20;
 }
 
 #title {
@@ -34,4 +46,26 @@ header nav {
 
 .navigation span {
   padding: 0 10px;
+}
+
+/* Body Section */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 120px;
+
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
